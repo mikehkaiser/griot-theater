@@ -47,7 +47,7 @@
 
 
 /* featured 1 */
-.featured-image-1 { 
+.featured-image-1, .featured-image-2, .featured-image-3, .featured-image-4 { 
     grid-area: featured-image-1; 
     align-self: center;
     border-bottom: 1px solid #dfdfdf;
