@@ -1,0 +1,208 @@
+.header{
+    position: relative;
+    text-align: center;
+    color:";
+}
+
+.header img{
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.header>h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 650%;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.body-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.8fr 1.3fr 1.3fr 1.3fr 1.3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    ". Month Month Month ."
+    ". featured-image-1 featured-text-1 read-more-1 ."
+    ". featured-image-2 featured-text-2 read-more-2 ."
+    ". featured-image-3 featured-text-3 read-more-3 ."
+    ". featured-image-4 featured-text-4 read-more-4 ."; 
+}
+.Month { 
+    grid-area: Month;
+    justify-self: bottom;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    background-color: #ddd;
+}
+
+
+
+/* featured 1 */
+.featured-image-1 { 
+    grid-area: featured-image-1; 
+    align-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px
+}
+
+.featured-text-1 { 
+    grid-area: featured-text-1;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 10px
+}
+.read-more-1 { 
+    grid-area: read-more-1;
+    align-self: center;
+    justify-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 87px
+}
+
+/* featured 2 */
+.featured-image-2 { 
+    grid-area: featured-image-2; 
+    align-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px
+}
+
+.featured-text-2 { 
+    grid-area: featured-text-2;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 10px
+}
+
+.read-more-2 { 
+    grid-area: read-more-2;
+    align-self: center;
+    justify-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 87px
+}
+
+/* featured 3 */
+.featured-image-3 { 
+    grid-area: featured-image-3;
+    align-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px 
+}
+
+.featured-text-3 { 
+    grid-area: featured-text-3;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 10px
+}
+
+.read-more-3 { 
+    grid-area: read-more-3;
+    align-self: center;
+    justify-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 87px
+}
+
+/* featured 4 */
+.featured-image-4 { 
+    grid-area: featured-image-4;
+    align-self: center; 
+    border-bottom: 1px solid #dfdfdf;
+    padding: 30px
+}
+
+.featured-text-4 { 
+    grid-area: featured-text-4;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 10px
+}
+
+.read-more-4 { 
+    grid-area: read-more-4;
+    align-self: center;
+    justify-self: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 87px
+}
+
+
+.featured-image-1>img{
+    display: block;
+    max-height: 140px;
+    max-width: auto;
+    margin: 10px
+}
+
+.featured-image-2>img{
+    display: block;
+    max-height: 140px;
+    max-width: auto;
+    margin: 10px
+}
+
+.featured-image-3>img{
+    display: block;
+    max-height: 140px;
+    max-width: auto;
+    margin: 10px
+}
+
+.featured-image-4>img{
+    display: block;
+    max-height: 140px;
+    max-width: auto;
+    margin: 10px
+}
+
+button {
+    background-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 1px solid black;
+    padding: 10px
+}
+
+h2 {
+    font-size: 140%
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-decoration: none
+}
+
+.footer img{
+    max-height: 200px;
+    width: auto;
+    margin: 50px 25px 50px 75px
+}
+
+.info{
+    display: flex;
+    text-decoration: none
+}
+
+.info p{
+    color: white;
+    text-align: center;
+}
+
+.map{
+    display: flex
+}
